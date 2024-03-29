@@ -17,6 +17,7 @@ import {
   sparkpostConfig,
   emailWebhookConfig,
   brazeEmailConfig,
+  loopsConfig,
 } from '../credentials';
 import { IProviderConfig } from '../provider.interface';
 import { EmailProviderIdEnum } from '../provider.enum';
@@ -176,5 +177,13 @@ export const emailProviders: IProviderConfig[] = [
     betaVersion: true,
     docReference: 'https://docs.novu.co/channels/email/email-webhook/',
     logoFileName: { light: 'email_webhook.svg', dark: 'email_webhook.svg' },
+  },
+  {
+    id: EmailProviderIdEnum.Loops,
+    displayName: 'Loops',
+    channel: ChannelTypeEnum.EMAIL,
+    credentials: loopsConfig,
+    docReference: 'https://loops.so/docs',
+    logoFileName: { light: 'loops.svg', dark: 'loops.svg' },
   },
 ];

@@ -67,9 +67,11 @@
     "handlebars": "^4.7.7",
     "hat": "^0.0.3",
     "helmet": "^6.0.1",
+    "i18next": "^23.7.6",
     "ioredis": "5.3.2",
     "jsonwebtoken": "9.0.0",
     "lodash": "^4.17.15",
+    "loops": "^0.2.0",
     "nanoid": "^3.1.20",
     "nest-raven": "^10.0.0",
     "newrelic": "^9.15.0",
@@ -88,8 +90,7 @@
     "slugify": "^1.4.6",
     "swagger-ui-express": "^4.4.0",
     "twilio": "^4.14.1",
-    "uuid": "^8.3.2",
-    "i18next": "^23.7.6"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@faker-js/faker": "^6.0.0",
